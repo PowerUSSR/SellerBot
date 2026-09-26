@@ -1,0 +1,14 @@
+name: SellerBot
+version: 1.0
+main: org.mineserver.sellerbot.SellerBotPlugin
+api-version: 1.20
+depend: [Vault, ProtocolLib]
+commands:
+  sellerbot:
+    description: Управление Ботом-Продавцом
+    permission: sellerbot.admin
+    usage: /sellerbot <spawn|skin|page|rotate|info>
+permissions:
+  sellerbot.admin:
+    description: Управление Ботом-Продавцом
+    default: op
